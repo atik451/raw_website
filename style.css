@@ -1,0 +1,551 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.navbar {
+    overflow: hidden;
+    background-color: transparent;
+ 
+    margin-left: 25%;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .search{
+    display: flex;
+    float: right;
+    margin-left: 180px;
+    
+  }
+   .search button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+ 
+
+  .i{
+ 
+ padding: 5px;
+  
+  }
+  .i button{
+    font-size: 20px;
+  }
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color:rgb(247, 241, 241);;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .logo img{
+    width: 100%;
+  }
+  h1{
+      background-color:rgb(238, 222, 238);
+      text-align: center;
+     padding: 10px;
+  }
+  .flex1{
+      display: flex;
+  }
+  
+     
+
+  .a2{
+      background-color:transparent;
+      height: 600px;
+      width: 30%;
+  }
+  .a1{
+      width: 80%;
+      
+  }
+ 
+  .container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: 400px;
+    padding: 20px;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color:rgba(247, 241, 241, 0.449);
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease;
+   padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .container:hover .overlay {
+    bottom: 0;
+    height: 100%;
+  }
+  
+  .text {
+    white-space: nowrap; 
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  .flexbox{
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+  }
+  .flexbox2{
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+  }
+  .b1{
+ 
+    margin-left: 25%;
+ font-size: 25px;
+ padding: 10px;
+ margin-top: 10px;
+  }
+.b0{
+  background-color:transparent;
+  width: 100px;
+  margin: 20px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 18px;
+  display: block;
+    
+}
+   input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+.b2{
+  text-align: center;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+.button {
+  background-color:transparent;
+  border: none;
+  color:black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 8px 2px;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+  cursor: pointer;}
+.button5 {
+  background-color: white;
+  color: black;
+  border: 1px solid #555555;
+}
+.button5:hover {
+  background-color: #555555;
+  color: white;
+  font-size: 16px;
+}
+
+.b01{
+  text-align: center;
+ margin-top: 30px;
+}
+.b2{
+  border: 1px solid black;
+  margin-left: 25px;
+}
+.b09{
+  padding: 20px;
+}
+.b3{
+  margin-top: 35px;
+
+}
+
+.b02{
+  margin-left: 10px;
+}
+.b03{
+  margin: 10px;
+  padding: 15px;
+}
+.b04{
+  margin-left: 30%;
+}
+.b4{
+  padding: 10px;
+  margin-right: 10px;
+  margin-top: 30px;
+}
+.b3{
+  border: 1px solid black;
+  margin: 25px;
+}
+.a11{
+  margin: 10px;
+  padding: 15px;
+}
+.a12{
+  margin-left: 40%;
+}
+.a13{
+  margin: 20px 20px;
+}
+.a14{
+  padding: 10px;
+  margin-left: 15px;
+}
+.a15{
+margin-left: 30px;
+margin-right: 30px;
+
+}
+.a16 .blog-content img{
+  width: 100%;
+  height: 380px;
+}
+.a16{
+ margin-right: 20%;
+ margin-left: 10%;
+
+}
+.a17 h1{
+  margin-right: 40px;
+  margin-left: 40px;
+}
+.a16 .blog-content{
+  margin-top: 5px;
+}
+
+.a17{
+  
+    max-width: 100%;
+    height: auto;
+    
+    margin-top: 30px;
+}
+.b4{
+ border: 1px solid black
+}
+.b05{
+  margin: 20px 20px;
+}
+.b05 h1{
+  background-color: rgb(238, 222, 238);
+  
+}
+ h4{
+  text-align: center;
+}
+.b06{
+  padding: 15px;
+  border-bottom: 1px solid black;
+}
+.b06 img{
+  height: 100px;
+  width: 200px;
+  margin-left: 70px;
+}
+footer{
+  padding: 30px;
+  background-color:  rgb(238, 222, 238) ;
+  height: 200px;
+}
+.c1{
+  color: black;
+}
+.footer{
+  display: flex;
+}
+.c3{
+ margin-left: 44%;
+ font-size: 25px;
+ padding: 10px;
+}
+.c2 img{
+  width: 700px;
+  height: 100px;
+ margin-left: 65%;
+}
+.c1 h1{
+  border-bottom: 1px solid black;
+}
+.e1{
+  display: flex;
+}
+.e1 img{
+  height: 300px;
+  width: 400px;
+}
+
+
+.mySlides{
+  padding: 2px;
+  border-bottom: 1px solid black;
+ 
+}
+.o1 img{
+  height: 600px;
+  width: 800px;
+}
+.z{
+  
+  display: flex;
+}
+.z1{
+margin-left: 10px;
+margin-top: 30px;
+}
+.z2{
+  margin: 20px;
+  width: 100%;
+  margin-top: 30px;
+  
+}
+table,tr,td{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table{
+  width: 100%;
+}
+.day{
+  color: black;
+}
+.pushup{
+  color: rgb(0, 183, 255);
+}
+.squat{
+  color: rgb(248, 0, 248);
+}
+.situp{
+  color: rgb(255, 0, 0);
+}
+
+.content img {
+  float: left;
+height: 300px;
+width: 270px;
+margin-right: 10px;
+}
+
+.content {
+  overflow: auto;
+  border: 3px solid whitesmoke;
+  padding: 5px;
+  background:rgb(238, 222, 238); 
+  color: black;
+  width: 70%;
+  margin-top: 30px;
+  margin-left: 180px; 
+}
+
+.about
+.trainer-img{
+  display: flex;
+  margin-left: 120px;
+}
+.about-container img{
+  border-radius: 50%;
+ height: 350px;
+ width: 400px;
+ box-shadow: 0px 0px 0px;
+ border:1px solid rgb(114, 66, 123);
+}
+
+.contact{
+  background-color: rgb(255, 248, 248);
+}
+.form input[type=text], select ,input[type=email],input[type=number],input[type=date],input[type=password],textarea{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  
+}
+.f{
+  background-color: rgb(255, 248, 248);
+}
+.f{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.f1{
+float: left;
+
+
+}
+  
+
+.about{
+  margin-right: 250px;
+  margin-left: 120px;
+  padding: 20px;
+}
+.about img{
+  width: 100%;
+}
+.trainer{
+  display: flex;
+  margin-left: 150px;
+}
+
+
+.form input[type=submit] {
+  width: 100%;
+  background-color:rgb(150, 124, 155);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form input[type=submit]:hover {
+  background-color:rgb(114, 66, 123);
+}
+
+.form {
+  border-radius: 5px;
+  background-color:rgb(238, 222, 238);
+
+  padding: 20px;
+  margin: 80px;
+  box-shadow: 10px 10px 5px grey;
+ 
+}
+.blog-content {
+  overflow: auto;
+  border: 3px solid whitesmoke;
+  padding: 5px;
+  background:transparent;  
+  color: black;
+  width: 100%;
+  margin-top: 50px;
+  margin-left: 50px; 
+  box-shadow: 10px 10px 5px grey;
+  margin-bottom: 30px;
+  transition: transform .2s;
+}
+.blog-content:hover {
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1); 
+}
+.blog-content p{
+  color: black;
+}
+.blog-content img {
+  float: left;
+height: 300px;
+width: 270px;
+margin-right: 10px;
+}
+.blog-content h1:hover{
+color: plum;
+}
+.g{
+  display: flex;
+}
+.g1{
+  margin-right: 50px;
+
+}
+.z3 img{
+   height: 620px;
+   width: 100%;
+}
+.z3{
+  margin-right: 100px;
+
+}
+.classes{
+  margin-right: 200px;
+  margin-left: 100px;
+}
+.a16{
+  display: flex;
+}
